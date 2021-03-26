@@ -1,0 +1,36 @@
+{
+  "_id": "page.suggestion--paid-for--have-to-provide--alternatives",
+  "_isa": "page.yes",
+  "_type": "page.confirmation-alt",
+  "body": "You will pay for access to content you have no control over but have to deliver the service in some form. There are alternatives. Because you are funding it and have the choice of using possibly more accessible alternatives this is your responsibility. You should consider linking to accessible content as best practice and accessibility during procurement.\r\n\r\n## Example\r\n\r\nA paid service you have gone to procurement for. You have options and are paying for the delivery of an ‘off the shelf’ managed service.",
+  "show": {
+    "all": [
+      {
+        "identifier": "paid_for",
+        "operator": "is",
+        "value": "yes"
+      },
+      {
+        "identifier": "have_to_provide",
+        "operator": "is",
+        "value": "yes"
+      },
+      {
+        "identifier": "alternatives",
+        "operator": "is",
+        "value": "yes"
+      },
+      {
+        "identifier": "hosting",
+        "operator": "is",
+        "value": "no"
+      },
+      {
+        "identifier": "bespoke",
+        "operator": "is",
+        "value": "no"
+      }
+    ]
+  },
+  "url": "/suggestion/paid-for/have-to-provide/alternatives"
+}

@@ -1,0 +1,36 @@
+{
+  "_id": "page.suggestion--none",
+  "_isa": "page.no",
+  "_type": "page.confirmation-alt",
+  "body": "You will be using something you dont pay for, dont have to provide, have no appropriate alternatives to, and have no control over. This is not your responsibility.\r\n\r\n## Example\r\n\r\nLinking to the source of information as a reference on a page on your website that forms no part of an administrative process.",
+  "show": {
+    "all": [
+      {
+        "identifier": "paid_for",
+        "operator": "is",
+        "value": "no"
+      },
+      {
+        "identifier": "have_to_provide",
+        "operator": "is",
+        "value": "no"
+      },
+      {
+        "identifier": "alternatives",
+        "operator": "is",
+        "value": "no"
+      },
+      {
+        "identifier": "hosting",
+        "operator": "is",
+        "value": "no"
+      },
+      {
+        "identifier": "bespoke",
+        "operator": "is",
+        "value": "no"
+      }
+    ]
+  },
+  "url": "/suggestion/none"
+}

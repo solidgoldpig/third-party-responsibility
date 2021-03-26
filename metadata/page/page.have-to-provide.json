@@ -1,0 +1,14 @@
+{
+  "_id": "page.have-to-provide",
+  "_type": "page.singlequestion",
+  "components": [
+    {
+      "_id": "page.have-to-provide--radios.auto_name__1",
+      "_isa": "radios.yes-no",
+      "_type": "radios",
+      "legend": "Do you have to provide functionality served by the 3rd party content?",
+      "name": "have_to_provide"
+    }
+  ],
+  "url": "have-to-provide"
+}

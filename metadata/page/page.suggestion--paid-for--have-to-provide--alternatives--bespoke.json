@@ -1,0 +1,36 @@
+{
+  "_id": "page.suggestion--paid-for--have-to-provide--alternatives--bespoke",
+  "_isa": "page.yes",
+  "_type": "page.confirmation-alt",
+  "body": "You have to deliver the service, there are accessible alternatives and you will pay for the content to be bespokely developed for you. It is your responsibility because you have a choice of alternatives to deliver the required service, and had the opportunity to request accessibility as part of the requirements before development began.\r\n\r\n## Example\r\n\r\nTBA",
+  "show": {
+    "all": [
+      {
+        "identifier": "paid_for",
+        "operator": "is",
+        "value": "yes"
+      },
+      {
+        "identifier": "have_to_provide",
+        "operator": "is",
+        "value": "yes"
+      },
+      {
+        "identifier": "alternatives",
+        "operator": "is",
+        "value": "yes"
+      },
+      {
+        "identifier": "hosting",
+        "operator": "is",
+        "value": "no"
+      },
+      {
+        "identifier": "bespoke",
+        "operator": "is",
+        "value": "yes"
+      }
+    ]
+  },
+  "url": "/suggestion/paid-for/have-to-provide/alternatives/bespoke"
+}

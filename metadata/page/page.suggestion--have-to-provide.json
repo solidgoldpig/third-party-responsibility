@@ -1,0 +1,36 @@
+{
+  "_id": "page.suggestion--have-to-provide",
+  "_isa": "page.no",
+  "_type": "page.confirmation-alt",
+  "body": "You will link to other content that you have nothing to do with but have a compelling reason forcing you to signpost users to this content. This is not your responsibility.\r\n\r\n## Example\r\n\r\nA Local Authority may have a statutory requirement to direct users to specific national content. This content may not be accessible but is in no way controlled by the Local Authority.",
+  "show": {
+    "all": [
+      {
+        "identifier": "paid_for",
+        "operator": "is",
+        "value": "no"
+      },
+      {
+        "identifier": "have_to_provide",
+        "operator": "is",
+        "value": "yes"
+      },
+      {
+        "identifier": "alternatives",
+        "operator": "is",
+        "value": "no"
+      },
+      {
+        "identifier": "hosting",
+        "operator": "is",
+        "value": "no"
+      },
+      {
+        "identifier": "bespoke",
+        "operator": "is",
+        "value": "no"
+      }
+    ]
+  },
+  "url": "suggestion/have-to-provide"
+}

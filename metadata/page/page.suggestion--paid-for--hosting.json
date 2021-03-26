@@ -1,0 +1,36 @@
+{
+  "_id": "page.suggestion--paid-for--hosting",
+  "_isa": "page.yes",
+  "_type": "page.confirmation-alt",
+  "body": "You will host and pay for possibly inaccessible content, you have no control over the content. There are no alternative products however you have no necessarily compelling reason to provide this content. The important point here is the choice to pay for and host the content despite the lack of urgency to deliver the service and the possibility of no compliant option available. Some inaccessible content is often better than no content. However because you had the choice to pay for the content and host it, but were not forced to do so, you would be responsible.\r\n\r\nAdvice would be to link to the inaccessible content if possible rather than embed on your website. You should look at the purchasing of accessible content as part of procurement.\r\n\r\n## Example\r\n\r\nTBA",
+  "show": {
+    "all": [
+      {
+        "identifier": "paid_for",
+        "operator": "is",
+        "value": "yes"
+      },
+      {
+        "identifier": "have_to_provide",
+        "operator": "is",
+        "value": "no"
+      },
+      {
+        "identifier": "alternatives",
+        "operator": "is",
+        "value": "no"
+      },
+      {
+        "identifier": "hosting",
+        "operator": "is",
+        "value": "yes"
+      },
+      {
+        "identifier": "bespoke",
+        "operator": "is",
+        "value": "no"
+      }
+    ]
+  },
+  "url": "/suggestion/paid-for/hosting"
+}

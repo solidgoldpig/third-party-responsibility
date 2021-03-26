@@ -1,0 +1,36 @@
+{
+  "_id": "page.suggestion--paid-for--alternatives--bespoke",
+  "_isa": "page.yes",
+  "_type": "page.confirmation-alt",
+  "body": "You will link to content that you have no control over but will have paid to be bespokely developed for you. There are alternatives you could chose from. This is your responsibility because you should have requested accessibility compliance as part of your requirements before development or looked at alternative content.\r\n\r\n## Example\r\n\r\nTBA",
+  "show": {
+    "all": [
+      {
+        "identifier": "paid_for",
+        "operator": "is",
+        "value": "yes"
+      },
+      {
+        "identifier": "have_to_provide",
+        "operator": "is",
+        "value": "no"
+      },
+      {
+        "identifier": "alternatives",
+        "operator": "is",
+        "value": "yes"
+      },
+      {
+        "identifier": "hosting",
+        "operator": "is",
+        "value": "no"
+      },
+      {
+        "identifier": "bespoke",
+        "operator": "is",
+        "value": "yes"
+      }
+    ]
+  },
+  "url": "/suggestion/paid-for/alternatives/bespoke"
+}

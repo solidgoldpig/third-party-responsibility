@@ -1,0 +1,36 @@
+{
+  "_id": "page.suggestion--alternatives--hosting",
+  "_isa": "page.yes",
+  "_type": "page.confirmation-alt",
+  "body": "You will have chosen to host possible inaccessible content and you have no control over the content. There are alternatives so you should consider using accessible content as best practice. Because you are hosting the content it is your responsibility unless you either link to your chosen content rather than host it on your site, or if you have to host content then look at what accessible alternatives there are.\r\n\r\n## Example\r\n\r\nTBA",
+  "show": {
+    "all": [
+      {
+        "identifier": "paid_for",
+        "operator": "is",
+        "value": "no"
+      },
+      {
+        "identifier": "have_to_provide",
+        "operator": "is",
+        "value": "no"
+      },
+      {
+        "identifier": "alternatives",
+        "operator": "is",
+        "value": "yes"
+      },
+      {
+        "identifier": "hosting",
+        "operator": "is",
+        "value": "yes"
+      },
+      {
+        "identifier": "bespoke",
+        "operator": "is",
+        "value": "no"
+      }
+    ]
+  },
+  "url": "/suggestion/alternatives/hosting"
+}

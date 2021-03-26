@@ -1,0 +1,36 @@
+{
+  "_id": "page.suggestion--hosting",
+  "_isa": "page.yes",
+  "_type": "page.confirmation-alt",
+  "body": "You will host possibly inaccessible content on a platform you have control over. You have no control over the content itself or recourse to improve it. Advice would be to link to the content if you have no alternatives rather than embed on your website.\r\n\r\n## Example\r\n\r\nEmbedding a non accessible video onto a page. While it is within the domain of your control you have some responsibility. if you link to it then it is no longer your responsibility.",
+  "show": {
+    "all": [
+      {
+        "identifier": "paid_for",
+        "operator": "is",
+        "value": "no"
+      },
+      {
+        "identifier": "have_to_provide",
+        "operator": "is",
+        "value": "no"
+      },
+      {
+        "identifier": "alternatives",
+        "operator": "is",
+        "value": "no"
+      },
+      {
+        "identifier": "hosting",
+        "operator": "is",
+        "value": "yes"
+      },
+      {
+        "identifier": "bespoke",
+        "operator": "is",
+        "value": "no"
+      }
+    ]
+  },
+  "url": "/suggestion/hosting"
+}

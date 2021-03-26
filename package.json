@@ -1,0 +1,21 @@
+{
+  "name": "third-party-responsibility",
+  "version": "1.0.1",
+  "description": "Chapter",
+  "main": "index.js",
+  "dependencies": {
+    "@ministryofjustice/fb-components-core": "https://github.com/solidgoldpig/fb-components-core",
+    "@ministryofjustice/fb-runner-node": "https://github.com/solidgoldpig/fb-runner-node",
+    "govuk-frontend": "3.1.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "SERVICE_PATH=./ node node_modules/@ministryofjustice/fb-runner-node/bin/start.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/solidgoldpig/third-party-responsibility.git"
+  },
+  "author": "",
+  "license": "ISC"
+}

@@ -1,0 +1,36 @@
+{
+  "_id": "page.suggestion--paid-for--have-to-provide",
+  "_isa": "page.no",
+  "_type": "page.confirmation-alt",
+  "body": "You will pay for access to content not hosted by you and you have no control over, but have a responsibility to deliver. There are no alternatives. This is not your responsibility and could be considered disproportionate burden to try and change. The important point here is the lack of alternatives and the force outside of your control compelling you to deliver this information. Some inaccessible content is often better than no content. You should look at what reasonable adjustments you could make, but also look into a disproportionate burden assessment.\r\n\r\n## Example\r\n\r\nAccess to a specific e-document subscription service such as academic research journals which are the sole publishers of the content you require.",
+  "show": {
+    "all": [
+      {
+        "identifier": "paid_for",
+        "operator": "is",
+        "value": "yes"
+      },
+      {
+        "identifier": "have_to_provide",
+        "operator": "is",
+        "value": "yes"
+      },
+      {
+        "identifier": "alternatives",
+        "operator": "is",
+        "value": "no"
+      },
+      {
+        "identifier": "hosting",
+        "operator": "is",
+        "value": "no"
+      },
+      {
+        "identifier": "bespoke",
+        "operator": "is",
+        "value": "no"
+      }
+    ]
+  },
+  "url": "/suggestion/paid-for/have-to-provide"
+}

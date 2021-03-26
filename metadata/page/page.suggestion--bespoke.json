@@ -1,0 +1,36 @@
+{
+  "_id": "page.suggestion--bespoke",
+  "_isa": "page.yes",
+  "_type": "page.confirmation-alt",
+  "body": "You will link to a piece of 3rd party content that you do not control but which has been bespokely developed to your requirements. This is your responsibility because you should have requested accessibility compliance as part of your requirements before development. There are no alternatives so your only option is to improve the accessibility of the content.\r\n\r\n## Example\r\n\r\nTBA",
+  "show": {
+    "all": [
+      {
+        "identifier": "paid_for",
+        "operator": "is",
+        "value": "no"
+      },
+      {
+        "identifier": "have_to_provide",
+        "operator": "is",
+        "value": "no"
+      },
+      {
+        "identifier": "alternatives",
+        "operator": "is",
+        "value": "no"
+      },
+      {
+        "identifier": "hosting",
+        "operator": "is",
+        "value": "no"
+      },
+      {
+        "identifier": "bespoke",
+        "operator": "is",
+        "value": "yes"
+      }
+    ]
+  },
+  "url": "/suggestion/bespoke"
+}

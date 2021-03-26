@@ -1,0 +1,36 @@
+{
+  "_id": "page.suggestion--alternatives--hosting--bespoke",
+  "_isa": "page.yes",
+  "_type": "page.confirmation-alt",
+  "body": "You will receive a bespoke developed product that will be hosted on a platform you control. There are alternatives you could chose from. This is your responsibility because you will have had many opportunities to ensure the accessibility of this service throughout the procurement cycle. You should have asked for accessibility in your bespoke requirements and you could have picked a more accessible piece of content to begin with.\r\n\r\n## Example\r\n\r\nPaying for a bespoke forms package that forms a feedback mechanism for users.",
+  "show": {
+    "all": [
+      {
+        "identifier": "paid_for",
+        "operator": "is",
+        "value": "no"
+      },
+      {
+        "identifier": "have_to_provide",
+        "operator": "is",
+        "value": "no"
+      },
+      {
+        "identifier": "alternatives",
+        "operator": "is",
+        "value": "yes"
+      },
+      {
+        "identifier": "hosting",
+        "operator": "is",
+        "value": "yes"
+      },
+      {
+        "identifier": "bespoke",
+        "operator": "is",
+        "value": "yes"
+      }
+    ]
+  },
+  "url": "/suggestion/alternatives/hosting/bespoke"
+}

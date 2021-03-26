@@ -1,0 +1,36 @@
+{
+  "_id": "page.suggestion--have-to-provide--hosting--bespoke",
+  "_isa": "page.yes",
+  "_type": "page.confirmation-alt",
+  "body": "You will host on your website a piece of bespokely designed 3rd party content that forms part of a service you have to deliver. It is your responsibility because you had the opportunity to request accessibility as part of the requirements before development began.\r\n\r\n## Example\r\n\r\nTBA",
+  "show": {
+    "all": [
+      {
+        "identifier": "paid_for",
+        "operator": "is",
+        "value": "no"
+      },
+      {
+        "identifier": "have_to_provide",
+        "operator": "is",
+        "value": "yes"
+      },
+      {
+        "identifier": "alternatives",
+        "operator": "is",
+        "value": "no"
+      },
+      {
+        "identifier": "hosting",
+        "operator": "is",
+        "value": "yes"
+      },
+      {
+        "identifier": "bespoke",
+        "operator": "is",
+        "value": "yes"
+      }
+    ]
+  },
+  "url": "/suggestion/have-to-provide/hosting/bespoke"
+}

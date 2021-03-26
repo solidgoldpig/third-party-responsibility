@@ -1,0 +1,36 @@
+{
+  "_id": "page.suggestion--have-to-provide--alternatives--hosting",
+  "_isa": "page.yes",
+  "_type": "page.confirmation-alt",
+  "body": "You have to deliver the service, there are accessible alternatives and you dont have to pay for the content. Because there are alternatives and you are hosting the content on your website, it is your responsibility. You should have looked at using accessible options as part of best practice and may be able to link to content rather than host it on your website.\r\n\r\n## Example\r\n\r\nTBA",
+  "show": {
+    "all": [
+      {
+        "identifier": "paid_for",
+        "operator": "is",
+        "value": "no"
+      },
+      {
+        "identifier": "have_to_provide",
+        "operator": "is",
+        "value": "yes"
+      },
+      {
+        "identifier": "alternatives",
+        "operator": "is",
+        "value": "yes"
+      },
+      {
+        "identifier": "hosting",
+        "operator": "is",
+        "value": "yes"
+      },
+      {
+        "identifier": "bespoke",
+        "operator": "is",
+        "value": "no"
+      }
+    ]
+  },
+  "url": "/suggestion/have-to-provide/alternatives/hosting"
+}

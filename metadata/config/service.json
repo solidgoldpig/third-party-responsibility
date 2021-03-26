@@ -1,0 +1,16 @@
+{
+  "_id": "service",
+  "_isa": "@ministryofjustice/fb-components-core=>service",
+  "_type": "config.service",
+  "code": "Chapter",
+  "emailInputNameUser": "solicitor_email",
+  "emailSubjectTeam": "IoJ application - {fullname}",
+  "emailSubjectUser": "Your IoJ application has been submitted",
+  "emailTemplateTeam": "Please find an application attached",
+  "emailTemplateUser": "Dear {fullname}\r\n\r\nA copy of your IoJ application is attached.",
+  "name": "Determine responsibility for accessibility of 3rd party content",
+  "pdfHeading": "Chapter output",
+  "pdfSubHeading": "Chapter",
+  "phase": "alpha",
+  "phaseText": "Send your feedback here"
+}

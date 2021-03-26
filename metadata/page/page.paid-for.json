@@ -1,0 +1,14 @@
+{
+  "_id": "page.paid-for",
+  "_type": "page.singlequestion",
+  "components": [
+    {
+      "_id": "page.paid-for--radios.auto_name__1",
+      "_isa": "radios.yes-no",
+      "_type": "radios",
+      "legend": "Will you be paying for the 3rd party content?",
+      "name": "paid_for"
+    }
+  ],
+  "url": "paid-for"
+}

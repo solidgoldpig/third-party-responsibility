@@ -1,0 +1,36 @@
+{
+  "_id": "page.suggestion--have-to-provide--alternatives",
+  "_isa": "page.yes",
+  "_type": "page.confirmation-alt",
+  "body": "You will have no control over the content but have to link to that type of content in some form. There are alternatives and you have the choice to link to more accessible options to deliver the required service. Because you have a choice in the content you use, this is your responsibility.\r\n\r\n## Example\r\n\r\nTBA",
+  "show": {
+    "all": [
+      {
+        "identifier": "paid_for",
+        "operator": "is",
+        "value": "no"
+      },
+      {
+        "identifier": "have_to_provide",
+        "operator": "is",
+        "value": "yes"
+      },
+      {
+        "identifier": "alternatives",
+        "operator": "is",
+        "value": "yes"
+      },
+      {
+        "identifier": "hosting",
+        "operator": "is",
+        "value": "no"
+      },
+      {
+        "identifier": "bespoke",
+        "operator": "is",
+        "value": "no"
+      }
+    ]
+  },
+  "url": "/suggestion/have-to-provide/alternatives"
+}

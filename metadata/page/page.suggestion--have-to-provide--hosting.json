@@ -1,0 +1,36 @@
+{
+  "_id": "page.suggestion--have-to-provide--hosting",
+  "_isa": "page.no",
+  "_type": "page.confirmation-alt",
+  "body": "You have no control over the content and it forms part of a service you have to provide. There are no alternatives and you are hosting the information on your website. Because you have to do this, there are no alternatives, and you have neither paid for the content or had bespoke development done, this is not your responsibility and could be considered disproportionate burden to try and change. Some inaccessible content is often better than no content. You should look at what reasonable adjustments you could make, but also look into a disproportionate burden assessment.\r\n\r\n## Example\r\n\r\nA Local Authority is mandated to provide certain content on their website that is created and controlled by central government.",
+  "show": {
+    "all": [
+      {
+        "identifier": "paid_for",
+        "operator": "is",
+        "value": "no"
+      },
+      {
+        "identifier": "have_to_provide",
+        "operator": "is",
+        "value": "yes"
+      },
+      {
+        "identifier": "alternatives",
+        "operator": "is",
+        "value": "no"
+      },
+      {
+        "identifier": "hosting",
+        "operator": "is",
+        "value": "yes"
+      },
+      {
+        "identifier": "bespoke",
+        "operator": "is",
+        "value": "no"
+      }
+    ]
+  },
+  "url": "/suggestion/have-to-provide/hosting"
+}

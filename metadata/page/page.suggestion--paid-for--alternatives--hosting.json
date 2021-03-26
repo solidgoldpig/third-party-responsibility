@@ -1,0 +1,36 @@
+{
+  "_id": "page.suggestion--paid-for--alternatives--hosting",
+  "_isa": "page.yes",
+  "_type": "page.confirmation-alt",
+  "body": "You will pay for content when there are alternatives to chose from and host that content on your website. It is your responsibility. Because you are funding it and have the choice of using possibly more accessible alternatives this is your responsibility. You should consider linking to accessible content as best practice and looking at accessibility during procurement.\r\n\r\n## Example\r\n\r\nA paid service you have gone to procurement for. You have options and are paying for the delivery of an ‘off the shelf’ service.",
+  "show": {
+    "all": [
+      {
+        "identifier": "paid_for",
+        "operator": "is",
+        "value": "yes"
+      },
+      {
+        "identifier": "have_to_provide",
+        "operator": "is",
+        "value": "no"
+      },
+      {
+        "identifier": "alternatives",
+        "operator": "is",
+        "value": "yes"
+      },
+      {
+        "identifier": "hosting",
+        "operator": "is",
+        "value": "yes"
+      },
+      {
+        "identifier": "bespoke",
+        "operator": "is",
+        "value": "no"
+      }
+    ]
+  },
+  "url": "/suggestion/paid-for/alternatives/hosting"
+}

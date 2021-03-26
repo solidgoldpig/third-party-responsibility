@@ -1,0 +1,36 @@
+{
+  "_id": "page.suggestion--paid-for--alternatives",
+  "_isa": "page.yes",
+  "_type": "page.confirmation-alt",
+  "body": "You will pay for access to content you have no control over and dont have to deliver. There are other alternatives that may meet requirements in a more accessible way. You should consider accessibility as part of procurement and the alternatives available. If you chose an inaccessible service and pay for it, someone could challenge you on your choice, and if due dilligence was not followed, you could be challenged for discrimination.\r\n\r\n## Example\r\n\r\nChoosing access to an inaccessible travel booking service your employees can use, while there were alternatives available.",
+  "show": {
+    "all": [
+      {
+        "identifier": "paid_for",
+        "operator": "is",
+        "value": "yes"
+      },
+      {
+        "identifier": "have_to_provide",
+        "operator": "is",
+        "value": "no"
+      },
+      {
+        "identifier": "alternatives",
+        "operator": "is",
+        "value": "yes"
+      },
+      {
+        "identifier": "hosting",
+        "operator": "is",
+        "value": "no"
+      },
+      {
+        "identifier": "bespoke",
+        "operator": "is",
+        "value": "no"
+      }
+    ]
+  },
+  "url": "/suggestion/paid-for/alternatives"
+}

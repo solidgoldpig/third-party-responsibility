@@ -1,0 +1,36 @@
+{
+  "_id": "page.suggestion--paid-for--have-to-provide--alternatives--hosting",
+  "_isa": "page.yes",
+  "_type": "page.confirmation-alt",
+  "body": "You will pay for a service you have to deliver but have options for the content you pick to host on your website. This is your responsibility because you will be paying for a product that you have chosen when there may be better options available. You will have to be able to defend this choice.\r\n\r\n## Example\r\n\r\nTBA",
+  "show": {
+    "all": [
+      {
+        "identifier": "paid_for",
+        "operator": "is",
+        "value": "yes"
+      },
+      {
+        "identifier": "have_to_provide",
+        "operator": "is",
+        "value": "yes"
+      },
+      {
+        "identifier": "alternatives",
+        "operator": "is",
+        "value": "yes"
+      },
+      {
+        "identifier": "hosting",
+        "operator": "is",
+        "value": "yes"
+      },
+      {
+        "identifier": "bespoke",
+        "operator": "is",
+        "value": "no"
+      }
+    ]
+  },
+  "url": "/suggestion/paid-for/have-to-provide/alternatives/hosting"
+}

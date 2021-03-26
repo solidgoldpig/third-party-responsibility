@@ -1,0 +1,14 @@
+{
+  "_id": "page.hosting",
+  "_type": "page.singlequestion",
+  "components": [
+    {
+      "_id": "page.hosting--radios.auto_name__1",
+      "_isa": "radios.yes-no",
+      "_type": "radios",
+      "legend": "Will you be hosting the content?",
+      "name": "hosting"
+    }
+  ],
+  "url": "hosting"
+}

@@ -1,0 +1,36 @@
+{
+  "_id": "page.suggestion--alternatives",
+  "_isa": "page.no",
+  "_type": "page.confirmation-alt",
+  "body": "You will link to other content that you have no control over, no responsibility to provide and there are alternatives. This is not your responsibility.\r\n\r\n## Example\r\n\r\nLinking to a news article or other site as general information or a source to support a piece of content you are writing.",
+  "show": {
+    "all": [
+      {
+        "identifier": "paid_for",
+        "operator": "is",
+        "value": "no"
+      },
+      {
+        "identifier": "have_to_provide",
+        "operator": "is",
+        "value": "no"
+      },
+      {
+        "identifier": "alternatives",
+        "operator": "is",
+        "value": "yes"
+      },
+      {
+        "identifier": "hosting",
+        "operator": "is",
+        "value": "no"
+      },
+      {
+        "identifier": "bespoke",
+        "operator": "is",
+        "value": "no"
+      }
+    ]
+  },
+  "url": "/suggestion/alternatives"
+}

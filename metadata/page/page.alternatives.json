@@ -1,0 +1,14 @@
+{
+  "_id": "page.alternatives",
+  "_type": "page.singlequestion",
+  "components": [
+    {
+      "_id": "page.alternatives--radios.auto_name__1",
+      "_isa": "radios.yes-no",
+      "_type": "radios",
+      "legend": "Are there any alternatives that could be used instead?",
+      "name": "alternatives"
+    }
+  ],
+  "url": "alternatives"
+}
