@@ -1,0 +1,6 @@
+{
+  "_id": "radios.yes-no",
+  "_isa": "@ministryofjustice/fb-components-core=>radios.yes-no",
+  "_type": "radios",
+  "classes": ""
+}
