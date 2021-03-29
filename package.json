@@ -1,11 +1,11 @@
 {
   "name": "third-party-responsibility",
   "version": "1.0.1",
-  "description": "Chapter",
+  "description": "Responsibility for third party content",
   "main": "index.js",
   "dependencies": {
-    "@ministryofjustice/fb-components-core": "https://github.com/solidgoldpig/fb-components-core",
-    "@ministryofjustice/fb-runner-node": "https://github.com/solidgoldpig/fb-runner-node",
+    "@ministryofjustice/fb-components-core": "https://github.com/solidgoldpig/fb-components-core#1e3abed",
+    "@ministryofjustice/fb-runner-node": "https://github.com/solidgoldpig/fb-runner-node#63bb3db",
     "govuk-frontend": "3.1.0"
   },
   "scripts": {
@@ -16,6 +16,6 @@
     "type": "git",
     "url": "git+https://github.com/solidgoldpig/third-party-responsibility.git"
   },
-  "author": "",
+  "author": "github@alex.fu2k.org",
   "license": "ISC"
 }
